@@ -6,13 +6,24 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 20:21:11 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/09 13:56:47 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/12 20:48:13 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 #include "libft.h"
 
+/*
+The strnstr() function locates the first occurrence of the null-terminated 
+string needle in the string haystack, where not more than len characters are 
+searched.  Characters that appear after a `\0' character are not searched.
+
+RETURN VALUES
+If needle is an empty string, haystack is returned; 
+if needle occurs nowhere in haystack, NULL is returned;
+otherwise a pointer to the first character of the first occurrence of needle 
+is returned.
+*/
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	size_t	i;
