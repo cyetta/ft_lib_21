@@ -6,14 +6,14 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 11:26:05 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/12 19:20:47 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/13 15:19:17 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*DESCRIPTION
 The strchr() function locates the first occurrence of c (converted to a char) in
-the string pointed to by s.  The terminating null character is considered to be
-part of the string; therefore if c is `\0', the functions locate the
+ the string pointed to by s.  The terminating null character is considered to be
+ part of the string; therefore if c is `\0', the functions locate the
 terminating `\0'. The strrchr() function is identical to strchr(), except it
 locates the last occurrence of c.
 

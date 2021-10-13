@@ -6,7 +6,7 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 18:17:01 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/12 16:10:49 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/13 17:57:58 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 Создает подстроку из строки s c позиции старт, длиной len
 Allocates (with malloc(3)) and returns a substring from the string ’s’.
 The substring begins at index ’start’ and is of maximum size ’len’.
+return NULL if error in malloc
 */
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
