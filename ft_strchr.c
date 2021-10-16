@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 11:26:05 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/13 15:19:17 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 20:49:50 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*DESCRIPTION
+/*
 The strchr() function locates the first occurrence of c (converted to a char) in
  the string pointed to by s.  The terminating null character is considered to be
  part of the string; therefore if c is `\0', the functions locate the

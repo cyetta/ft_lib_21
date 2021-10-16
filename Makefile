@@ -9,8 +9,6 @@ SRCN = ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_tolower.c ft_toupper.c ft_isasc
 BSRCN = ft_lstnew.c ft_lst_add_front.c ft_lstsize.c ft_lstlast.c ft_lst_add_back.c ft_lstdelone.c \
 		ft_lstclear.c ft_lstiter.c ft_lstmap.c
 
-
-
 SRCPATH = ./
 INCPATH = ./
 
@@ -36,14 +34,6 @@ ${NAME}:	${OBJ} libft.h
 	ranlib ${NAME}
 
 all:	${NAME}
-
-#bonus:	${NAME} ${BOBJ}
-#	ar rc ${NAME} ${BOBJ}
-#	ranlib ${NAME}
-
-#bonus:	${OBJ} ${BOBJ}
-#	ar rc ${NAME} ${OBJ} ${BOBJ}
-#	ranlib ${NAME}
 
 bonus: 
 	@make  SRCN="${SRCN} ${BSRCN}" all
