@@ -6,7 +6,7 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/16 13:21:51 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/16 13:23:44 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 18:24:16 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,9 @@ the list.
 */
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	
+	while (lst)
+	{
+		(*f)(lst->content);
+		lst = lst->next;
+	}
 }

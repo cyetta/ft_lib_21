@@ -6,7 +6,7 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/15 00:31:14 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/16 11:41:48 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 19:47:33 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ t_list	*ft_lstnew(void *content)
 {
 	t_list	*newel;
 
-	if (!content)
-		return (NULL);
-	newel = malloc(sizeof(t_list));
+	newel = (t_list *)malloc(sizeof(t_list));
 	if (!newel)
 		return (NULL);
 	newel->content = content;
