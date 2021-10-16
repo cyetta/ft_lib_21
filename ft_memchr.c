@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 23:16:05 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/08 23:46:22 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:32:02 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stddef.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

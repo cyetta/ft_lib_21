@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 21:48:32 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/13 15:18:35 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:37:25 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include <stddef.h>
 #include "libft.h"
 
 /*

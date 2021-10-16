@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 21:58:13 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/08 22:18:19 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:33:37 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stddef.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {

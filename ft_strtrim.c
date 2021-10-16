@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 16:11:21 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/12 20:48:43 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:37:54 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 /*
 Allocates (with malloc(3)) and returns a copy of ’s1’ with the characters 

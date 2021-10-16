@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 21:58:13 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/08 22:29:50 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:27:15 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stddef.h>
 
 void	ft_bzero(void *s, size_t n)
 {

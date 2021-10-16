@@ -6,11 +6,11 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 19:12:08 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/09 20:30:46 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 22:36:50 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stddef.h>
 #include "libft.h"
 /*
 копирует dstsize - 1 символов из src в dst, получается

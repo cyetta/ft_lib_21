@@ -6,22 +6,22 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/16 11:50:42 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/16 12:57:13 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/16 23:25:03 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
 /*
-Adds the element ’new’ at the beginning of the list.
+Adds the element ’newel’ at the beginning of the list.
 lst - The address of a pointer to the first link of a list.
-new - The address of a pointer to the element to be added to the list.
+newel - The address of a pointer to the element to be added to the list.
 Return: None
 */
-void	ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front(t_list **lst, t_list *newel)
 {
-	if (!lst || !new)
+	if (!lst || !newel)
 		return ;
-	new->next = *lst;
-	*lst = new;
+	newel->next = *lst;
+	*lst = newel;
 }
