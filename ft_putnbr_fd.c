@@ -6,7 +6,7 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 18:20:55 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/13 19:12:05 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/17 02:27:39 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ void	ft_putnbr_fd(int n, int fd)
 
 	if (n < 0)
 	{
-		 write(fd, "-", 1);
-		 uint = -n;
+		write(fd, "-", 1);
+		uint = -n;
 	}
 	else
 		uint = n;

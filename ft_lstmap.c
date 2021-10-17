@@ -6,11 +6,12 @@
 /*   By: cyetta <cyetta@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/16 13:25:59 by cyetta            #+#    #+#             */
-/*   Updated: 2021/10/16 19:11:43 by cyetta           ###   ########.fr       */
+/*   Updated: 2021/10/17 03:08:07 by cyetta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 /*
 *lst   - The adress of a pointer to an element.
 *(*f)  - The adress of the function used to iterate on the list.
