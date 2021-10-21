@@ -14,11 +14,13 @@ INCPATH = ./
 
 SRCS = ${addprefix ${SRCPATH}, ${SRCN}}
 
-BSRCS = ${addprefix ${SOURCE}, ${BSRCN}}
+BSRCS = ${addprefix ${SRCPATH}, ${BSRCN}}
 
 OBJ = ${SRCS:.c=.o}
 
 BOBJ = ${BSRCS:.c=.o}
+
+DPDS = ${SRCS:.c=.d} ${BSRCS:.c=.d}
 
 CC = gcc
 
@@ -26,20 +28,26 @@ RM	= rm -f
 
 CFLAG = -Wall -Wextra -Werror
 
-.c.o:
-	${CC} ${CFLAG} -c $< -o ${<:.c=.o} -I ${INCPATH}
+all:	${NAME}
 
-${NAME}:	${OBJ} libft.h
-	ar rc ${NAME} ${OBJ}
+${NAME}:	${OBJ}
+	ar rc ${NAME} $?
 	ranlib ${NAME}
 
-all:	${NAME}
+%.o : %.c
+	${CC} ${CFLAG} -MMD -c $< -o $@ -I ${INCPATH}
+
+include ${wildcard ${DPDS}}
 
 bonus: 
 	@make  SRCN="${SRCN} ${BSRCN}" all
 
+testo:
+	@echo ${wildcard ${DPDS}}
+	@echo ${DPDS}
+
 clean:
-	${RM} ${OBJ} ${BOBJ}
+	${RM} ${OBJ} ${BOBJ} ${DPDS}
 
 fclean:	clean
 	${RM} ${NAME}
