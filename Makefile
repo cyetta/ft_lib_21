@@ -42,10 +42,6 @@ include ${wildcard ${DPDS}}
 bonus: 
 	@make  SRCN="${SRCN} ${BSRCN}" all
 
-testo:
-	@echo ${wildcard ${DPDS}}
-	@echo ${DPDS}
-
 clean:
 	${RM} ${OBJ} ${BOBJ} ${DPDS}
 
